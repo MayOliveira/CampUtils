@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CampUtils_Tests' do
+  pod 'CampUtils', :path => '../'
+  
+  
+end
