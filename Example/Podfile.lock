@@ -1,0 +1,16 @@
+PODS:
+  - CampUtils (0.1.0)
+
+DEPENDENCIES:
+  - CampUtils (from `../`)
+
+EXTERNAL SOURCES:
+  CampUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CampUtils: 62c4b31af67e4892fee41a91c6291f8274ab9944
+
+PODFILE CHECKSUM: b5c6e92c3354bfb44b95fe3349a96e504f46c91b
+
+COCOAPODS: 1.10.1

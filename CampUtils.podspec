@@ -8,35 +8,23 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CampUtils'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of CampUtils.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '1.0.0' # essa versão tem que ser a mesma da tag especificada no GitHub
+  s.summary          = 'Lib IOS para ajudar desenvolvedores.' # breve descrição
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+Uma lib IOS para ajudar desenvolvedores a implementar código.
+                       DESC # aqui pode colocar uma descrição maior
 
   s.homepage         = 'https://github.com/42044576/CampUtils'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '42044576' => 'mmayolliveira@gmail.com' }
   s.source           = { :git => 'https://github.com/42044576/CampUtils.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.swift_version = "5.3" # não vem por padrão, mas é bom especificar a versão
+  
+  s.ios.deployment_target = '10.0'
+  # pode especificar as outras plataformas em que o pod funciona tvos, macos, watchos...
 
   s.source_files = 'CampUtils/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'CampUtils' => ['CampUtils/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
